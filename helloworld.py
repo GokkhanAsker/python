@@ -110,3 +110,48 @@
 # # # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+# # # 2. Для натурального n создать словарь индекс-значение, состоящий из 
+# # элементов последовательности 3n + 1.
+# #     *Пример:*
+# #     - Для n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
+
+# n = int(input('Введите число: '))
+# myDict = {i: 3*i + 1 for i in range(1, n + 1)}
+# print(myDict)
+
+
+# одинаковы строки
+
+# str1 = input('Введите 1 строку:')
+# str2 = input('Введите 2 строку:')
+# count = 0
+# for ch in str1:
+#     if (str2.find(ch) >= 0):
+#         count += 1
+# print (count)
+# n = int(input('Введите число: '))
+# myDict = {i: 3*i + 1 for i in range(1, n + 1)}
+# print(myDict)
+# */*/*/*/*/*/*/*/*/*/*/*/*/**//*///***//////////****
+# first_string = input('Введите первую строку: ')
+# second_string = input('Введите вторую строку: ')
+
+# a = set(first_string)
+# b = set(second_string)
+
+# print(a)
+# print(b)
+
+# c = (a & b)
+
+# print(len(c))
+
+
+# # цуммы цифр
+# f = float(input('Введите число: '))
+# digitSumm = 0
+# fStr = str(f)
+# for ch in fStr:
+#     if ch != '.' and ch != '-':
+#         digitSumm += int(ch)
+# print(digitSumm)
